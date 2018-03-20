@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85E388DD2060F83E00F52597 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E388DC2060F83E00F52597 /* AppDelegate.m */; };
+		85E388E02060F83E00F52597 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E388DF2060F83E00F52597 /* ViewController.m */; };
+		85E388E32060F83E00F52597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E388E12060F83E00F52597 /* Main.storyboard */; };
+		85E388E52060F83E00F52597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E388E42060F83E00F52597 /* Assets.xcassets */; };
+		85E388E82060F83E00F52597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E388E62060F83E00F52597 /* LaunchScreen.storyboard */; };
+		85E388EB2060F83E00F52597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E388EA2060F83E00F52597 /* main.m */; };
+		85E388F52060F83E00F52597 /* QFMessageForwardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E388F42060F83E00F52597 /* QFMessageForwardDemoTests.m */; };
+		85E389002060F83E00F52597 /* QFMessageForwardDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E388FF2060F83E00F52597 /* QFMessageForwardDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85E388F12060F83E00F52597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85E388D02060F83E00F52597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85E388D72060F83E00F52597;
+			remoteInfo = QFMessageForwardDemo;
+		};
+		85E388FC2060F83E00F52597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85E388D02060F83E00F52597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85E388D72060F83E00F52597;
+			remoteInfo = QFMessageForwardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85E388D82060F83E00F52597 /* QFMessageForwardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFMessageForwardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E388DB2060F83E00F52597 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85E388DC2060F83E00F52597 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85E388DE2060F83E00F52597 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85E388DF2060F83E00F52597 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85E388E22060F83E00F52597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85E388E42060F83E00F52597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85E388E72060F83E00F52597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85E388E92060F83E00F52597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E388EA2060F83E00F52597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85E388F02060F83E00F52597 /* QFMessageForwardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFMessageForwardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E388F42060F83E00F52597 /* QFMessageForwardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFMessageForwardDemoTests.m; sourceTree = "<group>"; };
+		85E388F62060F83E00F52597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E388FB2060F83E00F52597 /* QFMessageForwardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFMessageForwardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E388FF2060F83E00F52597 /* QFMessageForwardDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFMessageForwardDemoUITests.m; sourceTree = "<group>"; };
+		85E389012060F83E00F52597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85E388D52060F83E00F52597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E388ED2060F83E00F52597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E388F82060F83E00F52597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85E388CF2060F83E00F52597 = {
+			isa = PBXGroup;
+			children = (
+				85E388DA2060F83E00F52597 /* QFMessageForwardDemo */,
+				85E388F32060F83E00F52597 /* QFMessageForwardDemoTests */,
+				85E388FE2060F83E00F52597 /* QFMessageForwardDemoUITests */,
+				85E388D92060F83E00F52597 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85E388D92060F83E00F52597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85E388D82060F83E00F52597 /* QFMessageForwardDemo.app */,
+				85E388F02060F83E00F52597 /* QFMessageForwardDemoTests.xctest */,
+				85E388FB2060F83E00F52597 /* QFMessageForwardDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85E388DA2060F83E00F52597 /* QFMessageForwardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				85E388DB2060F83E00F52597 /* AppDelegate.h */,
+				85E388DC2060F83E00F52597 /* AppDelegate.m */,
+				85E388DE2060F83E00F52597 /* ViewController.h */,
+				85E388DF2060F83E00F52597 /* ViewController.m */,
+				85E388E12060F83E00F52597 /* Main.storyboard */,
+				85E388E42060F83E00F52597 /* Assets.xcassets */,
+				85E388E62060F83E00F52597 /* LaunchScreen.storyboard */,
+				85E388E92060F83E00F52597 /* Info.plist */,
+				85E388EA2060F83E00F52597 /* main.m */,
+			);
+			path = QFMessageForwardDemo;
+			sourceTree = "<group>";
+		};
+		85E388F32060F83E00F52597 /* QFMessageForwardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				85E388F42060F83E00F52597 /* QFMessageForwardDemoTests.m */,
+				85E388F62060F83E00F52597 /* Info.plist */,
+			);
+			path = QFMessageForwardDemoTests;
+			sourceTree = "<group>";
+		};
+		85E388FE2060F83E00F52597 /* QFMessageForwardDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85E388FF2060F83E00F52597 /* QFMessageForwardDemoUITests.m */,
+				85E389012060F83E00F52597 /* Info.plist */,
+			);
+			path = QFMessageForwardDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85E388D72060F83E00F52597 /* QFMessageForwardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E389042060F83E00F52597 /* Build configuration list for PBXNativeTarget "QFMessageForwardDemo" */;
+			buildPhases = (
+				85E388D42060F83E00F52597 /* Sources */,
+				85E388D52060F83E00F52597 /* Frameworks */,
+				85E388D62060F83E00F52597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QFMessageForwardDemo;
+			productName = QFMessageForwardDemo;
+			productReference = 85E388D82060F83E00F52597 /* QFMessageForwardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85E388EF2060F83E00F52597 /* QFMessageForwardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E389072060F83E00F52597 /* Build configuration list for PBXNativeTarget "QFMessageForwardDemoTests" */;
+			buildPhases = (
+				85E388EC2060F83E00F52597 /* Sources */,
+				85E388ED2060F83E00F52597 /* Frameworks */,
+				85E388EE2060F83E00F52597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85E388F22060F83E00F52597 /* PBXTargetDependency */,
+			);
+			name = QFMessageForwardDemoTests;
+			productName = QFMessageForwardDemoTests;
+			productReference = 85E388F02060F83E00F52597 /* QFMessageForwardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85E388FA2060F83E00F52597 /* QFMessageForwardDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E3890A2060F83E00F52597 /* Build configuration list for PBXNativeTarget "QFMessageForwardDemoUITests" */;
+			buildPhases = (
+				85E388F72060F83E00F52597 /* Sources */,
+				85E388F82060F83E00F52597 /* Frameworks */,
+				85E388F92060F83E00F52597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85E388FD2060F83E00F52597 /* PBXTargetDependency */,
+			);
+			name = QFMessageForwardDemoUITests;
+			productName = QFMessageForwardDemoUITests;
+			productReference = 85E388FB2060F83E00F52597 /* QFMessageForwardDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85E388D02060F83E00F52597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "情风";
+				TargetAttributes = {
+					85E388D72060F83E00F52597 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					85E388EF2060F83E00F52597 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85E388D72060F83E00F52597;
+					};
+					85E388FA2060F83E00F52597 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85E388D72060F83E00F52597;
+					};
+				};
+			};
+			buildConfigurationList = 85E388D32060F83E00F52597 /* Build configuration list for PBXProject "QFMessageForwardDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85E388CF2060F83E00F52597;
+			productRefGroup = 85E388D92060F83E00F52597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85E388D72060F83E00F52597 /* QFMessageForwardDemo */,
+				85E388EF2060F83E00F52597 /* QFMessageForwardDemoTests */,
+				85E388FA2060F83E00F52597 /* QFMessageForwardDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85E388D62060F83E00F52597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E388E82060F83E00F52597 /* LaunchScreen.storyboard in Resources */,
+				85E388E52060F83E00F52597 /* Assets.xcassets in Resources */,
+				85E388E32060F83E00F52597 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E388EE2060F83E00F52597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E388F92060F83E00F52597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85E388D42060F83E00F52597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E388E02060F83E00F52597 /* ViewController.m in Sources */,
+				85E388EB2060F83E00F52597 /* main.m in Sources */,
+				85E388DD2060F83E00F52597 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E388EC2060F83E00F52597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E388F52060F83E00F52597 /* QFMessageForwardDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E388F72060F83E00F52597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E389002060F83E00F52597 /* QFMessageForwardDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85E388F22060F83E00F52597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85E388D72060F83E00F52597 /* QFMessageForwardDemo */;
+			targetProxy = 85E388F12060F83E00F52597 /* PBXContainerItemProxy */;
+		};
+		85E388FD2060F83E00F52597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85E388D72060F83E00F52597 /* QFMessageForwardDemo */;
+			targetProxy = 85E388FC2060F83E00F52597 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85E388E12060F83E00F52597 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85E388E22060F83E00F52597 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85E388E62060F83E00F52597 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85E388E72060F83E00F52597 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85E389022060F83E00F52597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85E389032060F83E00F52597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85E389052060F83E00F52597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = QFMessageForwardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.QFMessageForwardDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85E389062060F83E00F52597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = QFMessageForwardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.QFMessageForwardDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85E389082060F83E00F52597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = QFMessageForwardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.QFMessageForwardDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QFMessageForwardDemo.app/QFMessageForwardDemo";
+			};
+			name = Debug;
+		};
+		85E389092060F83E00F52597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = QFMessageForwardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.QFMessageForwardDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QFMessageForwardDemo.app/QFMessageForwardDemo";
+			};
+			name = Release;
+		};
+		85E3890B2060F83E00F52597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = QFMessageForwardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.QFMessageForwardDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QFMessageForwardDemo;
+			};
+			name = Debug;
+		};
+		85E3890C2060F83E00F52597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = QFMessageForwardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.QFMessageForwardDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QFMessageForwardDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85E388D32060F83E00F52597 /* Build configuration list for PBXProject "QFMessageForwardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E389022060F83E00F52597 /* Debug */,
+				85E389032060F83E00F52597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E389042060F83E00F52597 /* Build configuration list for PBXNativeTarget "QFMessageForwardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E389052060F83E00F52597 /* Debug */,
+				85E389062060F83E00F52597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E389072060F83E00F52597 /* Build configuration list for PBXNativeTarget "QFMessageForwardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E389082060F83E00F52597 /* Debug */,
+				85E389092060F83E00F52597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E3890A2060F83E00F52597 /* Build configuration list for PBXNativeTarget "QFMessageForwardDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E3890B2060F83E00F52597 /* Debug */,
+				85E3890C2060F83E00F52597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85E388D02060F83E00F52597 /* Project object */;
+}
