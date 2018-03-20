@@ -15,6 +15,8 @@
 		85E388EB2060F83E00F52597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E388EA2060F83E00F52597 /* main.m */; };
 		85E388F52060F83E00F52597 /* QFMessageForwardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E388F42060F83E00F52597 /* QFMessageForwardDemoTests.m */; };
 		85E389002060F83E00F52597 /* QFMessageForwardDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E388FF2060F83E00F52597 /* QFMessageForwardDemoUITests.m */; };
+		85E3890F2060F8B700F52597 /* QFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E3890E2060F8B700F52597 /* QFPerson.m */; };
+		85E389122060F8E800F52597 /* QFOtherPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E389112060F8E800F52597 /* QFOtherPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		85E388FB2060F83E00F52597 /* QFMessageForwardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFMessageForwardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E388FF2060F83E00F52597 /* QFMessageForwardDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFMessageForwardDemoUITests.m; sourceTree = "<group>"; };
 		85E389012060F83E00F52597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E3890D2060F8B700F52597 /* QFPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFPerson.h; sourceTree = "<group>"; };
+		85E3890E2060F8B700F52597 /* QFPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFPerson.m; sourceTree = "<group>"; };
+		85E389102060F8E800F52597 /* QFOtherPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QFOtherPerson.h; sourceTree = "<group>"; };
+		85E389112060F8E800F52597 /* QFOtherPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFOtherPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				85E388DC2060F83E00F52597 /* AppDelegate.m */,
 				85E388DE2060F83E00F52597 /* ViewController.h */,
 				85E388DF2060F83E00F52597 /* ViewController.m */,
+				85E3890D2060F8B700F52597 /* QFPerson.h */,
+				85E3890E2060F8B700F52597 /* QFPerson.m */,
+				85E389102060F8E800F52597 /* QFOtherPerson.h */,
+				85E389112060F8E800F52597 /* QFOtherPerson.m */,
 				85E388E12060F83E00F52597 /* Main.storyboard */,
 				85E388E42060F83E00F52597 /* Assets.xcassets */,
 				85E388E62060F83E00F52597 /* LaunchScreen.storyboard */,
@@ -268,6 +278,8 @@
 				85E388E02060F83E00F52597 /* ViewController.m in Sources */,
 				85E388EB2060F83E00F52597 /* main.m in Sources */,
 				85E388DD2060F83E00F52597 /* AppDelegate.m in Sources */,
+				85E389122060F8E800F52597 /* QFOtherPerson.m in Sources */,
+				85E3890F2060F8B700F52597 /* QFPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DZK6T3AW3W;
 				INFOPLIST_FILE = QFMessageForwardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.QFMessageForwardDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DZK6T3AW3W;
 				INFOPLIST_FILE = QFMessageForwardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.QFMessageForwardDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
