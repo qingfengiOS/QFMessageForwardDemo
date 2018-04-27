@@ -54,7 +54,7 @@
 		85E388FF2060F83E00F52597 /* QFMessageForwardDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFMessageForwardDemoUITests.m; sourceTree = "<group>"; };
 		85E389012060F83E00F52597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85E3890D2060F8B700F52597 /* QFPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFPerson.h; sourceTree = "<group>"; };
-		85E3890E2060F8B700F52597 /* QFPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFPerson.m; sourceTree = "<group>"; };
+		85E3890E2060F8B700F52597 /* QFPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFPerson.m; sourceTree = "<group>"; wrapsLines = 0; };
 		85E389102060F8E800F52597 /* QFOtherPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QFOtherPerson.h; sourceTree = "<group>"; };
 		85E389112060F8E800F52597 /* QFOtherPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFOtherPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */

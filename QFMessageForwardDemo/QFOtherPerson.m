@@ -10,8 +10,8 @@
 
 @implementation QFOtherPerson
 
-//- (void)run {
-//    NSLog(@"%@ 执行了 run",NSStringFromClass([self class]));
-//}
+- (void)run:(NSString *)name age:(NSInteger)age{
+    NSLog(@"%@ 执行了 run name = %@,age = %ld",NSStringFromClass([self class]), name,age);
+}
 
 @end

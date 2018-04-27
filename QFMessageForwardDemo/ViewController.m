@@ -20,7 +20,8 @@
     [super viewDidLoad];
     
     QFPerson *person = [[QFPerson alloc]init];
-    [person run];
+    [person run:@"hello" age:18];
+    
     
     
     

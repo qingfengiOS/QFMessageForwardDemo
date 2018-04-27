@@ -10,6 +10,6 @@
 
 @interface QFPerson : NSObject
 
-- (void)run;
+- (void)run:(NSString *)name age:(NSInteger)age;
 
 @end

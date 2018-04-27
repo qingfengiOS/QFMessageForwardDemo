@@ -25,12 +25,14 @@
 - (id)forwardingTargetForSelector:(SEL)aSelector {
     NSLog(@"aSelector = %@",NSStringFromSelector(aSelector));
     return [super forwardingTargetForSelector:aSelector];
-//    return [[OtherPerson alloc]init];//第二步，前端转发
+//    return [[QFOtherPerson alloc]init];//第二步，前端转发
 }
 
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {//第三步，签名转发
+    
+
     NSString *methodName = NSStringFromSelector(aSelector);
-    if ([methodName isEqualToString:@"run"]) {//是我们需要转发的run方法
+    if ([methodName isEqualToString:@"run:age:"]) {//是我们需要转发的run方法
         return [NSMethodSignature signatureWithObjCTypes:"v@:"];
     } else {
         return [super methodSignatureForSelector:aSelector];
